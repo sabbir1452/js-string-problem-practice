@@ -26,3 +26,12 @@ if (lyrics.indexOf("sadada") !== -1) {
 } else {
   console.log("cannot find it");
 }
+
+// startsWith
+
+console.log(lyrics.startsWith("Tumi"));
+
+// endsWith
+const fileName = "mybiodata.pdf";
+const otherFile = "mypic.png";
+fileName.endsWith("pdf");
