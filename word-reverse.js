@@ -11,4 +11,5 @@ function reverseWords(str) {
 
 const myString = "I am a good boy";
 
-reverseWords(myString);
+const justResult = reverseWords(myString);
+console.log(justResult);
